@@ -344,7 +344,7 @@ a:visited:hover {
   margin-top: 20px;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:500px) {
   #iconDescription {
     transform: translateX(0px);
   }
@@ -366,10 +366,10 @@ a:visited:hover {
     transform: translateX(0px);
   }
   #searchSelect {
-    width: 200px;
+    width: 135px;
   }
   #searchInput {
-    width: 200px !important;
+    width: 135px !important;
   }
   #iconDescription {
     transform: translateX(17px);
