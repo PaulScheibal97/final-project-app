@@ -152,7 +152,7 @@
 }
 
 #rareIcon {
-    color: rgb(250, 134, 225);
+    color: rgb(238, 151, 255);
     position: relative;
     transition: 0.8s;
     transform-style: preserve-3d;
@@ -160,7 +160,7 @@
 }
 
 #powerIcon {
-    color: rgb(253, 85, 85);
+    color: rgb(253, 168, 168);
     position: relative;
     transition: 0.8s;
     transform-style: preserve-3d;
@@ -168,7 +168,7 @@
 }
 
 #sillyIcon {
-    color: rgb(114, 253, 114);
+    color: rgb(154, 255, 154);
     position: relative;
     transition: 0.8s;
     transform-style: preserve-3d;
