@@ -29,15 +29,15 @@ function AddCard(props) {
       <h3 id="addHeader" className="d-flex text-center justify-content-center">Add Trading Card</h3>
       <div className="col-md-4">
         <label htmlFor="txtName" className="form-label">Name of Trading Card</label>
-        <input type="text" id="txtName" placeholder=" Card Name" className="form-control" onChange={(evt) => setName(evt.currentTarget.value)} value={name} />
+        <input type="text" id="txtName" placeholder=" Name of Card" className="form-control" onChange={(evt) => setName(evt.currentTarget.value)} value={name} />
       </div>
       <div className="col-md-4 mb-4">
         <label htmlFor="txtRarity" className="form-label">Rarity</label>
-        <input type="text" id="txtRarity" placeholder=" Rarity" className="form-control" onChange={(evt) => setRarity(evt.currentTarget.value)} value={rarity} />
+        <input type="text" id="txtRarity" placeholder=" How Rare?" className="form-control" onChange={(evt) => setRarity(evt.currentTarget.value)} value={rarity} />
       </div>
       <div className="col-md-4">
         <label htmlFor="txtPower" className="form-label">Power Level</label>
-        <input type="text" id="txtPower" placeholder=" Power Level" className="form-control" onChange={(evt) => setPower(evt.currentTarget.value)} value={power} />
+        <input type="text" id="txtPower" placeholder=" How Powerful?" className="form-control" onChange={(evt) => setPower(evt.currentTarget.value)} value={power} />
       </div>
       <div className="col-md-4">
       <label htmlFor="txtSilly" className="form-label">Silly Level</label>

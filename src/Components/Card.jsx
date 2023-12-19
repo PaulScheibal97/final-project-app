@@ -54,7 +54,7 @@ function Card(props) {
                  <div className="row d-flex justify-content-center text-center mt-1">
                   <button type="button" id="editBtn" className="btn btn-outline-primary m-1" onClick={() => setEditMode(true)}>Edit <FontAwesomeIcon icon={faMagicWandSparkles} id="sparkles" /></button>
                   <button type="button" id="removeBtn" className="btn btn-outline-primary m-1" onClick={() => props.removeCard(props.card)}>Delete <FontAwesomeIcon icon={faWarning} id="warning" /></button>
-                 <p id="sillyCopyright"> <FontAwesomeIcon icon={ faCat } /> Silly Cat Trading Card Game Company&copy;</p>
+                 <p id="sillyCopyright"> <FontAwesomeIcon icon={ faCat } id="copyCat" /> Silly Cat Trading Card Game Company&copy;</p>
                  </div>
                </ul>
                }
