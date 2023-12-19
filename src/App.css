@@ -107,17 +107,17 @@ p {
 
 #spinGem {
   color: rgb(163, 15, 163);
-  filter: drop-shadow(0px 0px 5px rgb(163, 15, 163));
+  filter: drop-shadow(0px 0px 5px rgb(250, 100, 250));
 }
 
 #spinFist {
   color: red;
-  filter: drop-shadow(0px 0px 5px red);
+  filter: drop-shadow(0px 0px 5px rgb(253, 85, 85));
 }
 
 #spinShield {
-  color: rgb(47, 211, 7);
-  filter: drop-shadow(0px 0px 5px rgb(47, 211, 7));
+  color: green;
+  filter: drop-shadow(0px 0px 5px rgb(114, 253, 114));
 }
 
 #spinGemText {
