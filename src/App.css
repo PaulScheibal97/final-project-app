@@ -367,9 +367,11 @@ a:visited:hover {
   }
   #searchSelect {
     width: 135px;
+    transform: translateX(-30px)
   }
   #searchInput {
     width: 135px !important;
+    transform: translateX(-30px)
   }
   #iconDescription {
     transform: translateX(17px);
