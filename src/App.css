@@ -202,7 +202,6 @@ img {
     0px 0px 8px rgb(35, 140, 201);
   margin-top: 47px;
   width: 320px;
-  filter: drop-shadow(0px 0px 1px rgb(35, 140, 201));
 }
 
 #searchSelect:hover {
@@ -215,6 +214,7 @@ img {
     0 0 20px rgb(35, 140, 201),
     0 0 30px rgb(35, 140, 201),
     0 0 40px rgb(35, 140, 201);
+    filter: drop-shadow(0px 0px 1px rgb(35, 140, 201));
 }
 
 #searchLabel {
@@ -228,9 +228,9 @@ img {
 #searchInput {
   border: thin solid rgb(35, 140, 201);
   color: white;
-  text-shadow: 0px 0px 6px rgb(35, 140, 201),
-    0px 0px 7px rgb(35, 140, 201),
-    0px 0px 8px rgb(35, 140, 201);
+  text-shadow: 0px 0px 5px rgb(35, 140, 201),
+    0px 0px 6px rgb(35, 140, 201),
+    0px 0px 7px rgb(35, 140, 201);
 }
 
 #searchInput:focus {
@@ -244,10 +244,9 @@ img {
 #searchInput::placeholder {
   font-size: 14px;
   color: white;
-  text-shadow: 0px 0px 5px rgb(35, 140, 201),
-    0px 0px 6px rgb(35, 140, 201),
-    0px 0px 7px rgb(35, 140, 201);
-    filter: drop-shadow(0px 0px 1px rgb(35, 140, 201));
+  text-shadow: 0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201),
+    0px 0px 6px rgb(35, 140, 201);
 }
 
 #searchInput {
@@ -302,6 +301,7 @@ img {
     0 0 20px rgb(35, 140, 201),
     0 0 30px rgb(35, 140, 201),
     0 0 40px rgb(35, 140, 201);
+    filter: drop-shadow(0px 0px 1px rgb(35, 140, 201));
 }
 
 #addCardBtn:hover a:link, #addCardBtn:hover a:visited {
