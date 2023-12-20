@@ -32,9 +32,13 @@
     transition: 0.5s ease-out;
 }
 
+.card ul li {
+    transition: all 0.5s;
+}
+
 .card:hover ul li {
     border-color: rgb(35, 140, 201);
-    transition: 0.5s ease-out;
+    transition: all 0.5s;
 }
 
 #editBtn:hover, #removeBtn:hover {

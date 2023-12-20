@@ -339,16 +339,14 @@ a:visited:hover {
 }
 
 @media only screen and (max-width:500px) {
-  
-  .card {
-    width: 300px;
-    transform: translateX(-50px);
-  }
   #iconDescription {
     transform: translateX(0px);
   }
   #spinGemText {
     transform: translateX(-10px);
+  }
+  #addCardBtn {
+    width: 250px;
   }
   p {
     transform: translateX(-10px);
@@ -384,5 +382,8 @@ a:visited:hover {
   #sillyCopyright {
     font-size: 12px !important;
     transform: translateX(0px);
+  }
+  #bigContainer {
+    width: 250px;
   }
 }
