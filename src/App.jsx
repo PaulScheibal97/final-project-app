@@ -178,9 +178,11 @@ function App() {
               <p id="middleText"className="d-flex justify-content-center text-center main-text">Silly Cat Trading Card Game Company&copy; allows anyone to build a deck of powerful and silly trading cards.</p>
               <p id="lastText" className="d-flex justify-content-center text-center main-text">Your creativity and silliness are the limits!</p>
               <div className="d-flex justify-content-center">
-                <button type="button" id="addCardBtn" className="d-flex justify-content-center text-center btn btn-outline-primary">
-                  <a href="#addCard">Start Adding Cards!</a>
-                </button>
+                
+                  <a href="#addCard">
+                  <button type="button" id="addCardBtn" className="d-flex justify-content-center text-center btn btn-outline-primary">Start Adding Cards!</button>
+                  </a>
+                
               </div>
            </div>
         <div className="row d-flex justify-content-center mt-4" id="searchCards">
