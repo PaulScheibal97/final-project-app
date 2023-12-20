@@ -91,8 +91,8 @@ p {
 #gem {
   margin-bottom: 10px;
   font-size: 25px;
-  transform: translateY(55px);
-  margin-right: 25px;
+  transform: translateX(-100px);
+  margin-top: 55px;
 }
 
 #spinGem {
@@ -137,14 +137,15 @@ p {
 #fist {
   margin-bottom: 10px;
   font-size: 25px;
-  transform: translateY(55px);
-  margin-right: 33px;
+  transform: translateX(0px);
+  margin-top: 55px;
 }
 
 #shield {
   margin-top: 5px;
   font-size: 25px;
-  transform: translateY(50px);
+  transform: translateX(110px);
+  margin-top: 55px;
 }
 
 img {

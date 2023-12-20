@@ -220,7 +220,7 @@ function App() {
            </div>
          ))}
         <div className="row d-flex justify-content-center">
-        <div className="d-flex justify-content-around" id="iconDescription">
+        <div className="d-flex justify-content-center" id="iconDescription">
               <div id="gem" className="d-flex justify-content-center"><div id="test"><FontAwesomeIcon icon={faGem} id="spinGem" flip /></div><p id="spinGemText">Rarity</p></div>
               <div id="fist" className="d-flex justify-content-center"><div><FontAwesomeIcon icon={faHandFist} id="spinFist" flip /></div><p id="spinFistText">Power Level</p></div>
               <div id="shield" className="d-flex justify-content-center"><div><FontAwesomeIcon icon={faShieldCat} id="spinShield" flip /></div><p id="spinShieldText">Silly Level</p></div>
