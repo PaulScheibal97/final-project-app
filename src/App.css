@@ -101,26 +101,27 @@ p {
 #gem {
   margin-bottom: 10px;
   font-size: 25px;
-  transform: translateX(-35px);
 }
 
 #spinGem {
   color: rgb(238, 151, 255);
   filter: drop-shadow(0px 0px 5px rgb(255, 0, 255));
+  transform: translateY(5px);
 }
 
 #spinFist {
   color: rgb(253, 168, 168);
   filter: drop-shadow(0px 0px 5px red);
+  transform: translateY(5px);
 }
 
 #spinShield {
   color: rgb(154, 255, 154);
   filter: drop-shadow(0px 0px 5px green);
+  transform: translateY(5px);
 }
 
 #spinGemText {
-  transform: translateX(-1.5px);
   text-shadow: 0px 0px 2px rgb(255, 0, 255),
     0px 0px 3px rgb(255, 0, 255),
     0px 0px 4px rgb(255, 0, 255);
@@ -135,7 +136,6 @@ p {
 }
 
 #spinShieldText {
-  transform: translateX(0px);
   text-shadow: 0px 0px 1px green,
     0px 0px 2px green,
     0px 0px 3px green;
@@ -150,7 +150,6 @@ p {
 #shield {
   margin-top: 5px;
   font-size: 25px;
-  transform: translateX(-5.5px);
 }
 
 img {

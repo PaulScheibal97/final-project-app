@@ -2,7 +2,7 @@
 
 .card {
     background-color: rgb(4, 4, 56, 0.1);
-    border: thin solid  rgb(35, 140, 201);
+    border: thin solid  rgb(35, 140, 201, 0.2);
     transition: rotate 600ms ease;
 }
 
@@ -12,6 +12,7 @@
     0 0 20px rgb(35, 140, 201),
     0 0 30px rgb(35, 140, 201),
     0 0 40px rgb(35, 140, 201);
+    border: thin solid  rgb(35, 140, 201);
     rotate: x 18deg;
 }
 
@@ -34,7 +35,7 @@
 }
 
 .card ul li {
-    border: thin solid rgb(35, 140, 201);
+    border: thin solid rgb(35, 140, 201, 0.3);
 }
 
 #btnSave {
@@ -71,7 +72,7 @@
 
 .list-group-item {
     color: white;
-    background-color: rgb(4, 4, 56, 0.0);
+    background-color: transparent;
     position: relative;
     text-shadow: 0px 0px 6px rgb(35, 140, 201),
     0px 0px 7px rgb(35, 140, 201),
@@ -166,7 +167,6 @@
 
 .card:hover ul li #rareIcon, .card:hover ul li #powerIcon, .card:hover ul li #sillyIcon {
     animation: rotate 1s infinite;
-    text-shadow: 0px 0px 15px black;
 }
 
 @keyframes rotate {
