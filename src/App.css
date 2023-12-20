@@ -204,13 +204,11 @@ img {
 }
 
 #searchSelect:hover {
-  background-color: transparent;
-  text-shadow: 0px 0px 6px rgb(35, 140, 201),
-    0px 0px 7px rgb(35, 140, 201),
-    0px 0px 8px rgb(35, 140, 201);
+    background-color: transparent;
     box-shadow:
     0 0 10px rgb(35, 140, 201);
     filter: drop-shadow(0px 0px 1px rgb(35, 140, 201));
+    transition:  1s;
 }
 
 #searchLabel {
@@ -233,6 +231,7 @@ img {
   box-shadow:
   0 0 10px rgb(35, 140, 201),
   0 0 20px rgb(35, 140, 201);
+  transition: box-shadow 1s;
 }
 
 #searchInput::placeholder {
@@ -293,6 +292,7 @@ img {
     box-shadow:
     0 0 10px rgb(35, 140, 201);
     filter: drop-shadow(0px 0px 1px rgb(35, 140, 201));
+    transition: 1s;
 }
 
 #addCardBtn:hover a:link, #addCardBtn:hover a:visited {
@@ -300,6 +300,7 @@ img {
   text-shadow: 0px 0px 7px rgb(35, 140, 201),
     0px 0px 8px rgb(35, 140, 201),
     0px 0px 9px rgb(35, 140, 201);
+    transition: 1s;
 }
 
 a:link {
