@@ -180,7 +180,7 @@ function App() {
               <div className="d-flex justify-content-center">
                 
                   <a href="#addCard">
-                  <button type="button" id="addCardBtn" className="d-flex justify-content-center text-center btn btn-outline-primary">Start Adding Cards!</button>
+                    <button type="button" id="addCardBtn" className="d-flex justify-content-center text-center btn btn-outline-primary">Start Adding Cards!</button>
                   </a>
                 
               </div>
@@ -215,7 +215,7 @@ function App() {
         <h3 id="deckHeader" className="d-flex text-center justify-content-center">Your Current Cards</h3>
        {searchResults &&
          searchResults.map((card) => (
-           <div id="deck" className="col-md-4 col-sm-12" key={card.id}>
+           <div id="deck" className="col-md-4" key={card.id}>
              <Card card={card} removeCard={removeCard} updateCard={updateCard} />
            </div>
          ))}

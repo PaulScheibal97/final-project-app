@@ -339,6 +339,13 @@ a:visited:hover {
 }
 
 @media only screen and (max-width:500px) {
+  .card {
+    width: 270px;
+    transform: translateX(-32px);
+  }
+  #deck {
+    width: 350px;
+  }
   #iconDescription {
     transform: translateX(0px);
   }
