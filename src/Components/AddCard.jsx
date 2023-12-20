@@ -25,7 +25,7 @@ function AddCard(props) {
 
 
   return (
-    <div className="row mt-5 d-flex justify-content-center" id="addCard">
+    <div className="row d-flex justify-content-center" id="addCard">
       <h3 id="addHeader" className="d-flex text-center justify-content-center">Add Trading Card</h3>
       <div className="col-md-4">
         <label htmlFor="txtName" className="form-label">Name of Trading Card</label>

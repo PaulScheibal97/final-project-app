@@ -25,8 +25,7 @@
 	-khtml-border-radius: 10px;	
 	-moz-border-radius: 10px;
   box-shadow: 0 0 10px rgb(35, 140, 201),
-    0 0 20px rgb(35, 140, 201),
-    0 0 30px rgb(35, 140, 201);
+    0 0 20px rgb(35, 140, 201);
 	border-radius: 10px;
   border: thin solid rgb(35, 140, 201);
   padding: 2.5em;
@@ -66,19 +65,16 @@
 
 
 #iconDescription {
-  width: 550px;
+  width: 400px;
   margin-top: 50px;
-  margin-bottom: 42px;
   -webkit-border-radius:10px;
 	-khtml-border-radius: 10px;	
 	-moz-border-radius: 10px;
   box-shadow: 0 0 10px rgb(35, 140, 201),
-    0 0 20px rgb(35, 140, 201),
-    0 0 30px rgb(35, 140, 201),
-    0 0 40px rgb(35, 140, 201);
+    0 0 20px rgb(35, 140, 201);
 	border-radius: 10px;
   border: thin solid rgb(35, 140, 201);
-  padding: 5em;
+  padding: 2.5em;
 }
 
 p {
@@ -165,8 +161,7 @@ img {
   box-shadow:
     0 0 10px rgb(35, 140, 201),
     0 0 20px rgb(35, 140, 201),
-    0 0 30px rgb(35, 140, 201),
-    0 0 40px rgb(35, 140, 201);
+    0 0 30px rgb(35, 140, 201);
   border: thin solid rgb(35, 140, 201);
   padding: 5em;
   background-color: rgb(4, 4, 56, 0.7);
@@ -179,11 +174,9 @@ img {
 	border-radius: 10px;
   box-shadow:
     0 0 10px rgb(35, 140, 201),
-    0 0 20px rgb(35, 140, 201),
-    0 0 30px rgb(35, 140, 201),
-    0 0 40px rgb(35, 140, 201);
+    0 0 20px rgb(35, 140, 201);
   border: thin solid rgb(35, 140, 201);
-  padding: 2.5em;
+  padding: 2em;
   color: rgb(35, 140, 201);
   margin-bottom: 50px;
   margin-left: 1px;
@@ -222,9 +215,9 @@ img {
 #searchInput {
   border: thin solid rgb(35, 140, 201);
   color: white;
-  text-shadow: 0px 0px 5px rgb(35, 140, 201),
-    0px 0px 6px rgb(35, 140, 201),
-    0px 0px 7px rgb(35, 140, 201);
+  text-shadow: 0px 0px 3px rgb(35, 140, 201),
+    0px 0px 4px rgb(35, 140, 201),
+    0px 0px 5px rgb(35, 140, 201);
     transition: all 300ms;
 }
 
