@@ -3,7 +3,7 @@
 .card {
     background-color: rgb(4, 4, 56, 0.1);
     border: thin solid  rgb(35, 140, 201, 0.2);
-    transition: all 500ms;
+    transition: all 500ms ease-in-out;
 }
 
 
@@ -53,8 +53,7 @@
 }
 
 .card ul li {
-    border: thin solid rgb(35, 140, 201, 0.3);
-    transition: all 500ms;
+    border: thin solid rgb(35, 140, 201, 0.2);
 }
 
 #btnSave {
