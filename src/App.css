@@ -194,7 +194,7 @@ img {
     0px 0px 8px rgb(35, 140, 201);
   margin-top: 47px;
   width: 320px;
-  transition: all 300ms;
+  transition: all 500ms;
 }
 
 #searchSelect:hover {
@@ -218,7 +218,7 @@ img {
   text-shadow: 0px 0px 3px rgb(35, 140, 201),
     0px 0px 4px rgb(35, 140, 201),
     0px 0px 5px rgb(35, 140, 201);
-    transition: all 300ms;
+    transition: all 500ms;
 }
 
 #searchInput:focus {
@@ -275,7 +275,7 @@ img {
   text-shadow: 0px 0px 7px rgb(35, 140, 201),
     0px 0px 8px rgb(35, 140, 201),
     0px 0px 9px rgb(35, 140, 201);
-    transition: all 300ms;
+    transition: all 500ms;
 }
 
 #addCardBtn:hover {
