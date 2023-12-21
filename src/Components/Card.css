@@ -3,7 +3,7 @@
 .card {
     background-color: rgb(4, 4, 56, 0.1);
     border: thin solid  rgb(35, 140, 201, 0.2);
-    transition: all 300ms ease-in-out;
+    transition: all 500ms;
 }
 
 
@@ -11,7 +11,6 @@
     box-shadow: 0 0 10px rgb(35, 140, 201),
     0 0 20px rgb(35, 140, 201),
     0 0 30px rgb(35, 140, 201);
-    border: thin solid  rgb(35, 140, 201);
     rotate: x 18deg;
 }
 
@@ -23,31 +22,30 @@
     0px 0px 7px rgb(35, 140, 201),
     0px 0px 8px rgb(35, 140, 201);
     background-color: transparent;
-    transition:  300ms;
+    transition:  500ms;
 }
 
 .card:hover #editBtn:after, .card:hover #removeBtn:after {
     opacity: 0;
-    transition: 300ms;
+    transition: 500ms;
 }
 
 .card ul li {
-    transition: all 300ms;
+    transition: all 500ms;
 }
 
 .card:hover ul li {
     border-color: rgb(35, 140, 201);
-    transition: all 300ms;
 }
 
 #editBtn:hover, #removeBtn:hover {
     box-shadow: 0 0 10px rgb(35, 140, 201);
     filter: drop-shadow(0px 0px 1px rgb(35, 140, 201));
-    transition: 300ms;
+    transition: 500ms;
 }
 
 #editBtn:active {
-    transition: 300ms;
+    transition: 500ms;
 }
 
 #sparkles, #warning {
@@ -56,6 +54,7 @@
 
 .card ul li {
     border: thin solid rgb(35, 140, 201, 0.3);
+    transition: all 500ms;
 }
 
 #btnSave {
@@ -73,7 +72,7 @@
 #btnSave:hover {
     box-shadow: 0 0 10px rgb(35, 140, 201);
     filter: drop-shadow(0px 0px 1px rgb(35, 140, 201));
-    transition: 300ms;
+    transition: 500ms;
 }
 
 
@@ -91,7 +90,7 @@
 }
 
 .list-group {
-    transition: all 300ms;
+    transition: all 500ms;
 }
 
 
@@ -102,6 +101,7 @@
     text-shadow: 0px 0px 6px rgb(35, 140, 201),
     0px 0px 7px rgb(35, 140, 201),
     0px 0px 8px rgb(35, 140, 201);
+    transition: all 500ms;
 }
 
 #rareGlow {
@@ -159,7 +159,7 @@
     text-shadow: 0px 0px 7px rgb(35, 140, 201),
     0px 0px 8px rgb(35, 140, 201),
     0px 0px 9px rgb(35, 140, 201);
-    transition: all 300ms;
+    transition: all 500ms;
 }
 
 #rareIcon {
